@@ -1,5 +1,7 @@
-import { Pool } from "pg";
+import pkg from "pg";
 import dotEnv from 'dotenv';
+
+const { Pool } = pkg;
 
 dotEnv.config();
 
